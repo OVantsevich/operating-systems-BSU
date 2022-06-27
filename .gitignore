@@ -32,8 +32,9 @@
 *.app
 *.pdb
 *.vs
-*x64
-*.
-*.
-*.
-*.
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.recipe

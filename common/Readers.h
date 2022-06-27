@@ -44,11 +44,11 @@ class IntReader : public TReader<int> {
 
 		string str_copy = str;
 
-		int spaces_in_front = 0;
+		unsigned int spaces_in_front = 0;
 		while (spaces_in_front < str_copy.size() && ' ' == str_copy[spaces_in_front]) ++spaces_in_front;
 		if (spaces_in_front == str_copy.size()) return false;
 
-		int spaces_behind = str_copy.size() - 1;
+		unsigned int spaces_behind = str_copy.size() - 1;
 		while (spaces_behind >= 0 && ' ' == str_copy[spaces_behind]) --spaces_behind;
 
 		str_copy = str_copy.substr(spaces_in_front, spaces_behind - spaces_in_front + 1);
