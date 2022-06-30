@@ -23,7 +23,7 @@
     <ClInclude Include="..\common\Readers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\common\PolinomData.h">
+    <ClInclude Include="PolinomData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

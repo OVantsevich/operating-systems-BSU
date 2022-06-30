@@ -1,6 +1,6 @@
 #include <fstream>
 #include <windows.h>
-#include "..\common\Employee.h"
+#include "Employee.h"
 #include "..\common\Readers.h"
 
 using std::ifstream;

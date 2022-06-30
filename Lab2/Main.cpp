@@ -1,6 +1,6 @@
 #include <windows.h>
 #include "..\common\Readers.h"
-#include "..\common\PolinomData.h"
+#include "PolinomData.h"
 
 void PolinomInput(PolinomData& polinom_data, string& name_message)
 {

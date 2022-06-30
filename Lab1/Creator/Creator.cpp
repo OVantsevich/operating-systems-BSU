@@ -1,5 +1,5 @@
 #include <fstream>
-#include "..\..\common\Employee.h"
+#include "..\Employee.h"
 #include "..\..\common\Readers.h"
 
 bool FindID(const Employee* employees, int employee_number, int searched_id)
